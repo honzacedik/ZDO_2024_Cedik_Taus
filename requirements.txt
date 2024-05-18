@@ -1,0 +1,15 @@
+librosa==0.10.1
+matplotlib==3.8.2
+matplotlib-inline==0.1.6
+pandas @ file:///rapids/lib/pandas-1.5.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=7a0a56cef15fd1586726dace5616db75ebcfec9179a3a55e78f72c5639fa2a23
+pickleDB==0.9.2
+Pillow @ file:///rapids/lib/Pillow-10.1.0-cp310-cp310-manylinux_2_28_x86_64.whl#sha256=b0eb01ca85b2361b09480784a7931fc648ed8b7836f01fb9241141b968feb1db
+scikit-image==0.22.0
+scikit-learn @ file:///rapids/lib/scikit_learn-1.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=184a42842a4e698ffa4d849b6019de50a77a0aa24d26afa28fa49c9190bb144b
+torch==2.2.1
+torch-complex==0.4.3
+torchaudio==2.1.2+cu121
+torchdiffeq==0.2.3
+torchsde==0.2.6
+torchsummary==1.5.1
+torchvision==0.17.1
