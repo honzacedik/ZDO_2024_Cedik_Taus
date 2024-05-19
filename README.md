@@ -15,11 +15,10 @@ python run.py output.csv incision001.jpg incision005.png incision010.JPEG
 python run.py output.csv -v incision001.jpg incision005.png
 ```
 
-## Struktura výstupního souboru CSV je demonstrována v následujícím příkladu. Hlavička je "filename" a "n_stiches".
+## Struktura výstupního souboru CSV je demonstrována v následujícím příkladu. Hlavička je "filename" a "Počet_stehů".
 ```
-filename, n_stiches
+filename, Počet_stehů
 incision000.jpg , 5 # obrázek obsahuje 5 stehů
 incision001.jpg , 2
 incision003.jpg , 0
-incision002.jpg , -1 # obrázek nemohl být zpracován
 ```
