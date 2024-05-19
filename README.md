@@ -9,7 +9,7 @@ cd GithubProjects/ZDO_Team3/src
 python run.py output.csv incision001.jpg incision005.png incision010.JPEG
 ```
 
-- # Pokud nebudou na vstupu žádné argumenty, pustí se ukázková verze na předdefinavém obrázku
+- ### Pokud nebudou na vstupu žádné argumenty, pustí se ukázková verze na předdefinavém obrázku
 
 - ## Příklad spuštění s vizualizací:
 
