@@ -6,7 +6,7 @@ Cílem této úlohy je vyhodnotit kvalitu chirurgického stehu na základě obra
 
 ```bash
 cd GithubProjects/ZDO_Team3/src
-python run.py output.csv incision001.jpg incision005.png incision010.JPEG
+python run.py output.csv im3.jpg
 ```
 
 - ### Pokud nebudou na vstupu žádné argumenty, pustí se ukázková verze na předdefinavém obrázku
@@ -14,7 +14,7 @@ python run.py output.csv incision001.jpg incision005.png incision010.JPEG
 - ## Příklad spuštění s vizualizací:
 
 ```bash
-python run.py output.csv -v incision001.jpg incision005.png
+python run.py output.csv -v im3.jpg
 ```
 
 ## Struktura výstupního souboru CSV je demonstrována v následujícím příkladu. Hlavička je "filename" a "Počet_stehů".
@@ -22,5 +22,5 @@ python run.py output.csv -v incision001.jpg incision005.png
 filename, Počet_stehů
 incision000.jpg , 5 # obrázek obsahuje 5 stehů
 incision001.jpg , 2
-incision003.jpg , 0
+incision002.jpg , 0
 ```
